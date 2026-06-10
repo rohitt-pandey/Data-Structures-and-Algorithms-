@@ -3,6 +3,9 @@
 
 using namespace std;
 
+//sapce complexity=O(1)
+//Time complexity =O(n)
+
 vector<int> twoPointer(const vector<int>& arr, int target) {
     int i = 0;
     int j = arr.size() - 1;
